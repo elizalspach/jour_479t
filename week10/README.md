@@ -4,14 +4,18 @@ A Slack bot that automatically reminds reporters to stay in touch with their sou
 
 ## What it does
 
-The bot reads a Google Sheet containing a list of sources — including each source's name and the date they were last contacted. It checks every entry against a 7-day threshold and posts a summary message to a designated Slack channel:
+The bot reads a Google Sheet containing a list of sources. These include each source's name, phone number, email and the date they were last contacted. It checks each entry against a 7-day threshold and posts a summary message to a designated Slack channel:
 
 - If all sources have been contacted within the past week, it posts a confirmation that everything is on track.
 - If any sources haven't been contacted in 7 or more days (or have no contact date on record), it posts an alert listing those sources by name along with how long it has been since they were last reached.
 
+This is to ensure that reporters are reminded of each of their sources and can regularly reach out to them. This will inevitably help reporters develop closer relationships and take a task of their plate to manually check each time they have reached out to someone. 
+
 ## How it helps reporters
 
-Maintaining regular contact with sources is essential for beat reporters. It's easy to lose track of who you've spoken to recently, especially when managing a large roster of contacts. This bot surfaces that information automatically, so reporters don't have to audit their notes manually. A daily or weekly run of the script keeps the whole team accountable and ensures no source goes cold.
+Maintaining regular contact with sources is essential for beat reporters. It's easy to lose track of who you've spoken to recently, especially when managing a large roster of contacts. This bot surfaces that information automatically, so reporters don't have to audit their notes manually. A daily or weekly run of the script keeps the whole team accountable and ensures no source feels unwanted.
+
+This will also end up helping reporters break news on their beat, as sources are often the people who will deliver information word of mouth. It's here that trust is developed and crucial to a reporters' day to day job.
 
 ## Setup
 
