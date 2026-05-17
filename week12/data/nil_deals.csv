@@ -1,11 +1,940 @@
-athlete_name,school,sport,deal_value,brand,deal_type,year
-Bryce Young,Alabama,Football,800000,Nissan,Endorsement,2022
-Caitlin Clark,Iowa,Basketball,3000000,Nike,Endorsement,2024
-Caleb Williams,USC,Football,2700000,Beats by Dre,Social Media,2023
-Angel Reese,LSU,Basketball,1000000,Reebok,Endorsement,2023
-Quinn Ewers,Texas,Football,1400000,EA Sports,Endorsement,2022
-Paige Bueckers,UConn,Basketball,5000000,Gatorade,Endorsement,2024
-Shedeur Sanders,Colorado,Football,4500000,Beats by Dre,Endorsement,2023
-Livvy Dunne,LSU,Gymnastics,3700000,Nautica,Social Media,2023
-DJ Lagway,Florida,Football,850000,Wingstop,Appearance,2024
-Flau'jae Johnson,LSU,Basketball,1500000,Puma,Endorsement,2024
+school,sport,deal_type,deal_value,payment_type,brand,date,year,school_resources_used
+UCLA,Football,Other,1000.0,Cash,Degree,4/26/22,2022,No
+UCLA,Track and Field,Other,35000.0,Cash,Champion,4/26/22,2022,No
+UCLA,Rowing (Womens),Other,0.0,Cash,Rowing Blazers,4/26/22,2022,No
+UCLA,Basketball (Womens),Other,0.0,Cash,Holostars,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,9000.0,Cash,Doordash,4/26/22,2022,No
+UCLA,Volleyball (Beach),Other,3000.0,Cash,Beach Bum Sportz,4/26/22,2022,No
+UCLA,Volleyball (Beach),Other,1250.0,Cash,Suja Juice,4/26/22,2022,No
+UCLA,Football,Other,1500.0,Cash,MoneyLion,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,3500.0,Cash,STUDS,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,0.0,Cash,Seat Geek,4/26/22,2022,No
+UCLA,Basketball (Mens),Public Appearance,2500.0,Cash,Bill Goddard,6/29/22,2022,No
+UCLA,Volleyball (Womens),Other,5000.0,Cash,Mark Kalmansohn,6/20/22,2022,No
+UCLA,Track and Field,Other,0.0,Cash,Lola Getts,4/26/22,2022,No
+UCLA,Football,Camps and Lessons,300.0,Product/Equity,FriendsOverFans LLC,6/5/22,2022,No
+UCLA,Football,Camps and Lessons,300.0,Product/Equity,FriendsOverFans LLC,6/5/22,2022,No
+UCLA,Football,Camps and Lessons,300.0,Product/Equity,FriendsOverFans LLC,6/5/22,2022,No
+UCLA,Football,Camps and Lessons,300.0,Product/Equity,FriendsOverFans LLC,6/7/22,2022,No
+UCLA,Basketball (Womens),Other,5000.0,Cash,Mark Kalmansohn,6/15/22,2022,No
+UCLA,Tennis (Womens),Other,100.0,Cash,Stipend Athlete,4/26/22,2022,No
+UCLA,Basketball (Mens),Public Appearance,6000.0,Cash,Will Mcclendon Classic,6/24/22,2022,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,6/29/22,2022,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,6/29/22,2022,No
+UCLA,Basketball (Mens),Social Media,11.01,Cash,Cameo,6/29/22,2022,No
+UCLA,Basketball (Mens),Social Media,11.01,Cash,Cameo,6/29/22,2022,No
+UCLA,Soccer (Womens),Other,750.0,Cash,RPRT Management,6/9/22,2022,No
+UCLA,Soccer (Womens),Other,750.0,Cash,RPRT Management,6/9/22,2022,No
+UCLA,Water Polo (Mens),Not Sure,109.6,Product/Equity,Vuori,6/15/22,2022,No
+UCLA,Volleyball (Mens),Autographs,3500.0,Cash,Lloyd and Julie Talbert,6/8/22,2022,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,6/21/22,2022,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,6/9/22,2022,No
+UCLA,Tennis (Womens),Other,750.0,Cash,Pearson,4/26/22,2022,No
+UCLA,Tennis (Womens),Other,200.0,Cash,Princess Polly,4/26/22,2022,No
+UCLA,Basketball (Mens),Public Appearance,2000.0,Cash,Bruin Fan Alliance,5/13/22,2022,No
+UCLA,Basketball (Mens),Public Appearance,3000.0,Cash,Bruin Fan Alliance,5/13/22,2022,No
+UCLA,Football,Other,850.0,Cash,The Bruin Fan Alliance,5/14/22,2022,No
+UCLA,Football,Other,850.0,Cash,Bruin Fan Alliance,5/14/22,2022,No
+UCLA,Football,Other,850.0,Cash,The Bruin Fan Alliance,5/14/22,2022,No
+UCLA,Football,Other,1800.0,Cash,The Bruin Fan Alliance,5/14/22,2022,No
+UCLA,Football,Other,850.0,Cash,The Bruin Fan Alliance,5/15/22,2022,No
+UCLA,Football,Other,800.0,Cash,The Bruin Fan Alliance,5/15/22,2022,No
+UCLA,Football,Other,850.0,Cash,The Bruin Fan Alliance,5/15/22,2022,No
+UCLA,Football,Other,750.0,Cash,The Bruin Fan Alliance,5/17/22,2022,No
+UCLA,Football,Public Appearance,850.0,Cash,Bruin Fan Alliance,5/18/22,2022,No
+UCLA,Football,Other,750.0,Cash,The Bruin Fan Alliance,5/19/22,2022,No
+UCLA,Football,Other,750.0,Cash,The Bruin Fan Alliance,5/20/22,2022,No
+UCLA,Tennis (Womens),Other,500.0,Cash,The Bruin Fan Alliance,5/22/22,2022,No
+UCLA,Basketball (Mens),Other,2000.0,Cash,The Bruin Fan Alliance,5/23/22,2022,No
+UCLA,Basketball (Mens),Public Appearance,2000.0,Cash,Bruin Fan Alliance,5/13/22,2022,No
+UCLA,Football,Public Appearance,650.0,Cash,The Bruin Fan Alliance,5/14/22,2022,No
+UCLA,Football,Public Appearance,650.0,Cash,The Bruin Fan Alliance,5/14/22,2022,No
+UCLA,Football,Public Appearance,650.0,Cash,The Bruin Fan Alliance,5/14/22,2022,No
+UCLA,Football,Public Appearance,1200.0,Cash,The Bruin Fan Alliance,5/14/22,2022,No
+UCLA,Football,Public Appearance,650.0,Cash,The Bruin Fan Alliance,5/15/22,2022,No
+UCLA,Football,Public Appearance,650.0,Cash,The Bruin Fan Alliance,5/15/22,2022,No
+UCLA,Football,Public Appearance,650.0,Cash,The Bruin Fan Alliance,5/15/22,2022,No
+UCLA,Football,Public Appearance,650.0,Cash,The Bruin Fan Alliance,5/17/22,2022,No
+UCLA,Football,Public Appearance,650.0,Cash,The Bruin Fan Alliance,5/19/22,2022,No
+UCLA,Football,Public Appearance,650.0,Cash,The Bruin Fan Alliance,5/19/22,2022,No
+UCLA,Football,Public Appearance,650.0,Cash,The Bruin Fan Alliance,5/20/22,2022,No
+UCLA,Tennis (Womens),Public Appearance,500.0,Cash,The Bruin Fan Alliance,5/22/22,2022,No
+UCLA,Basketball (Mens),Social Media,22.5,Cash,Cameo,6/9/22,2022,No
+UCLA,Basketball (Mens),Public Appearance,250.0,Cash,John Wilmarth,5/20/22,2022,No
+UCLA,Football,Public Appearance,800.0,Product/Equity,Sunryde,5/21/22,2022,No
+UCLA,Football,Autographs,200.0,Cash,College Athlete Autographs and More,5/18/22,2022,No
+UCLA,Soccer (Mens),Autographs,200.0,Cash,College Athlete Autographs and More,5/18/22,2022,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,5/20/22,2022,No
+UCLA,Basketball (Mens),Social Media,22.5,Cash,Cameo,5/20/22,2022,No
+UCLA,Football,Social Media,38000.0,Cash,Trophe Case,5/26/22,2022,Yes
+UCLA,Gymnastics (Womens),Other,5000.0,Cash,Angel City Football Club,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,0.0,Cash,Whooaa,4/26/22,2022,No
+UCLA,Basketball (Mens),Social Media,36.75,Cash,Cameo,5/9/22,2022,No
+UCLA,Basketball (Mens),Social Media,22.5,Cash,Cameo,5/9/22,2022,No
+UCLA,Swimming/Diving (Womens),Public Appearance,500.0,Cash,Highsnobiety - The morrison group,4/29/22,2022,Yes
+UCLA,Football,Other,0.0,Cash,Horus,4/26/22,2022,No
+UCLA,Tennis (Womens),Other,200.0,Cash,Magic mind,4/26/22,2022,No
+UCLA,Basketball (Mens),Social Media,16.79,Cash,Cameo,4/13/22,2022,No
+UCLA,Gymnastics (Womens),Social Media,15.0,Cash,Cameo,4/13/22,2022,No
+UCLA,Gymnastics (Womens),Other,1000.0,Cash,Wild N Out,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,1000.0,Cash,Kids at Play,4/26/22,2022,No
+UCLA,Rowing (Womens),Other,0.0,Cash,Rowing Blazers,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,0.0,Cash,Pretty Little Thing,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,100.0,Cash,Just Women's Sports,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,7000.0,Cash,Biden Campaign,4/26/22,2022,No
+UCLA,Cross Country,Other,0.0,Cash,Nuun Hydration,4/26/22,2022,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,3/31/22,2022,No
+UCLA,Gymnastics (Womens),Other,30000.0,Cash,H&R Block,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,6000.0,Cash,Panda Express,4/26/22,2022,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,3/31/22,2022,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,3/31/22,2022,No
+UCLA,Basketball (Mens),Social Media,11.01,Cash,Cameo,3/31/22,2022,No
+UCLA,Football,Other,2000.0,Cash,Scotch Porter,4/26/22,2022,No
+UCLA,Basketball (Mens),Other,5000.0,Cash,Feels App,4/26/22,2022,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,3/31/22,2022,No
+UCLA,Basketball (Mens),Other,50.0,Cash,Postgame,4/26/22,2022,No
+UCLA,Basketball (Mens),Social Media,22.5,Cash,Cameo,3/16/22,2022,No
+UCLA,Gymnastics (Womens),Other,0.0,Cash,Pottery Barn Team,4/26/22,2022,No
+UCLA,Basketball (Mens),Social Media,118.12,Cash,Cameo,3/16/22,2022,No
+UCLA,Gymnastics (Womens),Social Media,11.01,Cash,Cameo,3/16/22,2022,No
+UCLA,Football,Other,3000.0,Cash,Mercedes benz,4/26/22,2022,No
+UCLA,Basketball (Mens),Social Media,11.01,Cash,Cameo,3/2/22,2022,No
+UCLA,Track and Field,Other,0.0,Cash,Liquid IV,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,50000.0,Cash,BUBBL'R,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,50000.0,Cash,BUBBL'R,4/26/22,2022,No
+UCLA,Basketball (Womens),Other,3000.0,Cash,FTX,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,4000.0,Cash,Celestial Seasonings,4/26/22,2022,No
+UCLA,Basketball (Womens),Other,25000.0,Cash,Champion,4/26/22,2022,No
+UCLA,Football,Other,10.0,Cash,Mogl,4/26/22,2022,No
+UCLA,Football,Other,50.0,Cash,Ticketsmarter,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,0.0,Cash,Grove Collaborative,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,0.0,Cash,Nike,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,0.0,Cash,Pretty Little Thing,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,0.0,Cash,STARFACE,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,6000.0,Cash,Footlocker,4/26/22,2022,No
+UCLA,Baseball,Other,0.0,Cash,100 Percent,4/26/22,2022,No
+UCLA,Volleyball (Womens),Other,2000.0,Cash,Warby Parker,4/26/22,2022,No
+UCLA,Softball,Other,60000.0,Cash,Champion,4/26/22,2022,No
+UCLA,Football,Other,0.0,Cash,Bethehoss,4/26/22,2022,No
+UCLA,Football,Other,700.0,Cash,Kora,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,0.0,Cash,Disney,4/26/22,2022,No
+UCLA,Track and Field,Other,500.0,Cash,Current,4/26/22,2022,No
+UCLA,Football,Other,0.0,Cash,IMR Float,4/26/22,2022,No
+UCLA,Tennis (Womens),Social Media,8.39,Cash,Cameo,2/10/22,2022,No
+UCLA,Football,Other,200.0,Cash,The Sideline Post,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,0.0,Cash,Coca Cola Co.,4/26/22,2022,No
+UCLA,Basketball (Womens),Other,50.0,Cash,Sudor,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,9750.0,Cash,IT Cosmetics,4/26/22,2022,No
+UCLA,Softball,Other,150.0,Cash,Mary Nutter Collegiate Classic,4/26/22,2022,No
+UCLA,Soccer (Womens),Other,0.0,Cash,Eat Alfalfa,4/26/22,2022,No
+UCLA,Track and Field,Other,0.0,Cash,Boutine LA,4/26/22,2022,No
+UCLA,Soccer (Womens),Other,0.0,Cash,Alfalfa,4/26/22,2022,No
+UCLA,Football,Other,1500.0,Cash,SANIL,4/26/22,2022,No
+UCLA,Softball,Other,1500.0,Cash,D1 Softball,4/26/22,2022,No
+UCLA,Tennis (Womens),Other,100.0,Cash,Just Womens Sports,4/26/22,2022,No
+UCLA,Soccer (Womens),Other,150.0,Cash,MOGL,4/26/22,2022,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,1/12/22,2022,No
+UCLA,Basketball (Mens),Social Media,26.24,Cash,Cameo,1/12/22,2022,No
+UCLA,Football,Other,50.0,Cash,JackRabbit Mobility Inc.,4/26/22,2022,No
+UCLA,Tennis (Mens),Other,0.0,Cash,Nuun,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,7000.0,Cash,Aeropostale x Cheetos,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,5500.0,Cash,Bartleby,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,4000.0,Cash,Gonna Need Milk,4/26/22,2022,No
+UCLA,Tennis (Womens),Social Media,11.25,Cash,Cameo,1/5/22,2022,No
+UCLA,Gymnastics (Womens),Other,6000.0,Cash,Bibigo,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,0.0,Cash,Disney +,4/26/22,2022,No
+UCLA,Basketball (Mens),Social Media,11.01,Cash,Cameo,1/5/22,2022,No
+UCLA,Soccer (Womens),Other,0.0,Cash,Marketing Jersey agency,4/26/22,2022,No
+UCLA,Basketball (Womens),Other,203.0,Cash,UFAITH Hoops,4/26/22,2022,No
+UCLA,Basketball (Mens),Social Media,89.24,Cash,Cameo,1/3/22,2022,No
+UCLA,Gymnastics (Womens),Social Media,22.5,Cash,Cameo,1/3/22,2022,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,1/3/22,2022,No
+UCLA,Baseball,Other,100.0,Cash,KORA,4/26/22,2022,No
+UCLA,Track and Field,Social Media,250.0,Product/Equity,Oliveda,1/7/22,2022,No
+UCLA,Golf (Womens),Other,0.0,Cash,Omega,4/26/22,2022,No
+UCLA,Tennis (Womens),Other,200.0,Cash,Eleven by Venus Williams,4/26/22,2022,No
+UCLA,Tennis (Womens),Other,1000.0,Cash,Universal Tennis Rating (UTR),4/26/22,2022,No
+UCLA,Basketball (Mens),Other,500.0,Cash,Kora Money,4/26/22,2022,No
+UCLA,Softball,Other,400.0,Cash,Trophy daughter,4/26/22,2022,No
+UCLA,Baseball,Other,100.0,Cash,Kora,4/26/22,2022,No
+UCLA,Volleyball (Beach),Other,3000.0,Cash,VB Rags,4/26/22,2022,No
+UCLA,Volleyball (Womens),Other,250.0,Cash,Kora,4/26/22,2022,No
+UCLA,Volleyball (Womens),Other,250.0,Cash,Kora,4/26/22,2022,No
+UCLA,Volleyball (Womens),Other,250.0,Cash,Kora,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,750.0,Cash,ADAK,4/26/22,2022,No
+UCLA,Football,Other,15000.0,Cash,LinkedIn,4/26/22,2022,No
+UCLA,Softball,Other,1200.0,Cash,Dick's Sporting Goods,4/26/22,2022,No
+UCLA,Football,Other,1000.0,Cash,BLU Products,4/26/22,2022,No
+UCLA,Football,Other,500.0,Cash,LinkedIn - Photoshoot,4/26/22,2022,No
+UCLA,Swimming/Diving (Womens),Other,0.0,Cash,Supergoop!,4/26/22,2022,No
+UCLA,Softball,Other,2500.0,Cash,DICKS Sporting Goods,4/26/22,2022,No
+UCLA,Softball,Other,2500.0,Cash,Dick's Sporting Goods,4/26/22,2022,No
+UCLA,Soccer (Womens),Other,150.0,Cash,Blueprint Sports,4/26/22,2022,No
+UCLA,Swimming/Diving (Womens),Other,0.0,Cash,Supergoop,4/26/22,2022,No
+UCLA,Cross Country,Other,0.0,Cash,SwairHair,4/26/22,2022,No
+UCLA,Swimming/Diving (Womens),Other,0.0,Cash,Lagoon Designs,4/26/22,2022,No
+UCLA,Cross Country,Other,0.0,Cash,ChicknLegs,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,0.0,Cash,Microsoft,4/26/22,2022,No
+UCLA,Volleyball (Beach),Other,0.0,Cash,RXBar,4/26/22,2022,No
+UCLA,Football,Other,7000.0,Cash,Degree Deodorant,4/26/22,2022,No
+UCLA,Football,Other,100.0,Cash,Chef Physique,4/26/22,2022,No
+UCLA,Football,Other,100.0,Cash,Air inc.,4/26/22,2022,No
+UCLA,Tennis (Womens),Other,0.0,Cash,Princess Polly,4/26/22,2022,No
+UCLA,Football,Other,2000.0,Cash,Be The Match,4/26/22,2022,No
+UCLA,Football,Other,40000.0,Cash,"UWG, Inc.",4/26/22,2022,No
+UCLA,Basketball (Mens),Other,6000.0,Cash,Crypto.com,4/26/22,2022,No
+UCLA,Basketball (Mens),Other,12500.0,Cash,Onyx,4/26/22,2022,No
+UCLA,Baseball,Other,50.0,Cash,Uptime Energy,4/26/22,2022,No
+UCLA,Tennis (Mens),Other,0.0,Cash,Wilson,4/26/22,2022,No
+UCLA,Basketball (Mens),Other,5000.0,Cash,Whistle,4/26/22,2022,No
+UCLA,Basketball (Womens),Other,3000.0,Cash,FTX,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,5000.0,Cash,Canada Goose,4/26/22,2022,No
+UCLA,Basketball (Mens),Other,7500.0,Cash,Uninterrupted Media,4/26/22,2022,No
+UCLA,Basketball (Womens),Other,1000.0,Cash,FTX Crypto,4/26/22,2022,No
+UCLA,Tennis (Womens),Other,0.0,Cash,Daily dose meals,4/26/22,2022,No
+UCLA,Softball,Other,1100.0,Cash,Dicks Sporting Good,4/26/22,2022,No
+UCLA,Track and Field,Other,500.0,Cash,POSTGAME OFFICIAL,4/26/22,2022,No
+UCLA,Basketball (Mens),Other,10000.0,Cash,Rally,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,1000.0,Cash,EOS,4/26/22,2022,No
+UCLA,Cross Country,Other,5000.0,Cash,Jack in the box,4/26/22,2022,No
+UCLA,Football,Other,200.0,Cash,DUFFL,4/26/22,2022,No
+UCLA,Tennis (Mens),Other,135.0,Cash,Be Real,4/26/22,2022,No
+UCLA,Football,Other,1000.0,Cash,Boost Mobile,4/26/22,2022,No
+UCLA,Track and Field,Other,0.0,Cash,Lola Getts INC,4/26/22,2022,No
+UCLA,Football,Other,10312.0,Cash,Shell,4/26/22,2022,No
+UCLA,Soccer (Mens),Other,0.0,Cash,Celcius,4/26/22,2022,No
+UCLA,Track and Field,Other,500.0,Cash,HYPERICE,4/26/22,2022,No
+UCLA,Track and Field,Other,500.0,Cash,HYPERICE,4/26/22,2022,No
+UCLA,Football,Other,25000.0,Cash,Candy Digital,4/26/22,2022,No
+UCLA,Football,Other,500.0,Cash,Anomaly,4/26/22,2022,No
+UCLA,Basketball (Mens),Other,10000.0,Cash,Supercard,4/26/22,2022,No
+UCLA,Basketball (Mens),Other,10000.0,Cash,Wildcard,4/26/22,2022,No
+UCLA,Football,Other,0.0,Cash,Be11eve Brand LLC,4/26/22,2022,No
+UCLA,Track and Field,Other,15.0,Cash,ZBiotics,4/26/22,2022,No
+UCLA,Softball,Other,200.0,Cash,no company is involved,4/26/22,2022,No
+UCLA,Water Polo (Mens),Other,200.0,Cash,TYR,4/26/22,2022,No
+UCLA,Track and Field,Other,0.0,Cash,KYX WORLD,4/26/22,2022,No
+UCLA,Football,Other,10000.0,Cash,Campus Mogul,4/26/22,2022,No
+UCLA,Water Polo (Mens),Other,30.0,Cash,MUD/WTR,4/26/22,2022,No
+UCLA,Tennis (Mens),Other,15.0,Cash,Tiiga,4/26/22,2022,No
+UCLA,Softball,Other,3600.0,Cash,DSG - Dicks Sporting Goods,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,500.0,Cash,Donde Nast,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,4000.0,Cash,LinknTree,4/26/22,2022,No
+UCLA,Softball,Other,1200.0,Cash,Dick√É‚Ä¢s Sporting Goods,4/26/22,2022,No
+UCLA,Football,Other,100.0,Cash,The Sideline Post,4/26/22,2022,No
+UCLA,Football,Other,1000.0,Cash,Discord,4/26/22,2022,No
+UCLA,Volleyball (Womens),Other,40.0,Cash,Liquid IV,4/26/22,2022,No
+UCLA,Football,Other,150.0,Cash,Universities.com,4/26/22,2022,No
+UCLA,Swimming/Diving (Womens),Other,0.0,Cash,Olive and June,4/26/22,2022,No
+UCLA,Volleyball (Womens),Other,1000.0,Cash,NoEzy Buckets,4/26/22,2022,No
+UCLA,Football,Other,75.0,Cash,NBM kicking,4/26/22,2022,No
+UCLA,Volleyball (Womens),Other,3000.0,Cash,Zoe Fleck Volleyball,4/26/22,2022,No
+UCLA,Water Polo (Mens),Other,60.0,Cash,everyday california,4/26/22,2022,No
+UCLA,Track and Field,Other,0.0,Cash,ATH RCH LLC,4/26/22,2022,No
+UCLA,Baseball,Other,10.0,Cash,Jocko Fuel,4/26/22,2022,No
+UCLA,Football,Other,0.0,Cash,NBM Kicking,4/26/22,2022,No
+UCLA,Water Polo (Mens),Other,100.0,Cash,Pierre Arden,4/26/22,2022,No
+UCLA,Tennis (Womens),Other,0.0,Cash,Apres,4/26/22,2022,No
+UCLA,Football,Other,100.0,Cash,NBM Kicking,4/26/22,2022,No
+UCLA,Soccer (Womens),Other,250.0,Cash,Lexi Wright,4/26/22,2022,No
+UCLA,Volleyball (Mens),Other,0.0,Cash,CROSSNET,4/26/22,2022,No
+UCLA,Football,Other,7.0,Cash,Just cash clothing,4/26/22,2022,No
+UCLA,Football,Other,1000.0,Cash,SDCCU Holiday Bowl,4/26/22,2022,No
+UCLA,Tennis (Mens),Other,0.0,Cash,Fans meet idols,4/26/22,2022,No
+UCLA,Volleyball (Womens),Other,2400.0,Cash,Mercedes-Benz USA,4/26/22,2022,No
+UCLA,Rowing (Womens),Other,80.0,Cash,Top Knot Inc.,4/26/22,2022,No
+UCLA,Water Polo (Mens),Other,0.0,Cash,Vuori,4/26/22,2022,No
+UCLA,Volleyball (Mens),Other,0.0,Cash,Crossnetgame,4/26/22,2022,No
+UCLA,Football,Other,500.0,Cash,ReliePh,4/26/22,2022,No
+UCLA,Basketball (Mens),Other,35.0,Cash,Cameo,4/26/22,2022,No
+UCLA,Soccer (Mens),Other,0.0,Cash,Barstool Sports,4/26/22,2022,No
+UCLA,Baseball,Other,85.0,Cash,Marv Training,4/26/22,2022,No
+UCLA,Football,Other,85000.0,Cash,Crocs,4/26/22,2022,No
+UCLA,Basketball (Mens),Other,50.0,Cash,GoPuff,4/26/22,2022,No
+UCLA,Baseball,Other,100.0,Cash,Kora Money,4/26/22,2022,No
+UCLA,Golf (Womens),Other,0.0,Cash,Clutch Lifestyle Co,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,250.0,Cash,Obsesh media,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,2500.0,Cash,Be The Match,4/26/22,2022,No
+UCLA,Track and Field,Other,3000.0,Cash,Six Star Pro Nutrition,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,60.0,Cash,The Players Trunk,4/26/22,2022,No
+UCLA,Football,Other,0.0,Cash,JackRabbit,4/26/22,2022,No
+UCLA,Tennis (Womens),Other,30.0,Cash,Go Puff,4/26/22,2022,No
+UCLA,Swimming/Diving (Womens),Other,0.0,Cash,Barstool Sports,4/26/22,2022,No
+UCLA,Football,Other,500.0,Cash,Fanbase App,4/26/22,2022,No
+UCLA,Football,Other,1500.0,Cash,Celestial Seasonings,4/26/22,2022,No
+UCLA,Basketball (Womens),Other,250.0,Cash,FTX,4/26/22,2022,No
+UCLA,Tennis (Mens),Other,3000.0,Cash,Brady Brand,4/26/22,2022,No
+UCLA,Football,Other,0.0,Cash,JackRabbit,4/26/22,2022,No
+UCLA,Football,Other,200.0,Cash,Mike WordWide (MWW AD Agency),4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,1000.0,Cash,Farfetch,4/26/22,2022,No
+UCLA,Tennis (Womens),Other,750.0,Cash,ADAK,4/26/22,2022,No
+UCLA,Soccer (Womens),Other,25000.0,Cash,Nike,4/26/22,2022,No
+UCLA,Football,Other,1000.0,Cash,Team Beast,4/26/22,2022,No
+UCLA,Football,Other,1000.0,Cash,Team Beast,4/26/22,2022,No
+UCLA,Basketball (Mens),Other,13000.0,Cash,Legends,4/26/22,2022,No
+UCLA,Golf (Womens),Other,0.0,Cash,LIQUID IV,4/26/22,2022,No
+UCLA,Football,Other,10000.0,Cash,Clearcover,4/26/22,2022,No
+UCLA,Football,Other,0.0,Cash,LA Regional Food Bank,4/26/22,2022,No
+UCLA,Soccer (Womens),Other,0.0,Cash,Celsius,4/26/22,2022,No
+UCLA,Gymnastics (Womens),Other,5000.0,Cash,Champs,4/26/22,2022,No
+UCLA,Tennis (Womens),Other,0.0,Cash,Halo Hydration,4/26/22,2022,No
+UCLA,Basketball (Mens),Social Media,10000.0,Cash,Perfect Hydration LLC,3/15/23,2023,No
+UCLA,Football,Social Media,5000.0,Cash,"Mondo USA, Inc.",5/18/23,2023,No
+UCLA,Baseball,Social Media,500.0,Cash,CalHOPE,1/26/23,2023,No
+UCLA,Basketball (Womens),Social Media,600.0,Cash,PostGame,6/21/23,2023,No
+UCLA,Basketball (Womens),Other,35000.0,Cash,Mark Kalmansohn,6/10/23,2023,No
+UCLA,Volleyball (Beach),Social Media,500.0,Cash,Hally Hair,6/12/23,2023,No
+UCLA,Basketball (Womens),Social Media,1700.0,Cash,Simple Human,6/12/23,2023,No
+UCLA,Volleyball (Mens),Social Media,4600.0,Cash,Lloyd and Julie Talbert,6/9/23,2023,No
+UCLA,Gymnastics (Womens),Other,3575.0,Cash,Disney (It's A Laugh Productions),6/7/23,2023,No
+UCLA,Gymnastics (Womens),Public Appearance,5000.0,Cash,"Angel City FC, LLC",6/7/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,2000.0,Cash,Paramount,6/7/23,2023,No
+UCLA,Basketball (Womens),Social Media,8500.0,Cash,Wingman63,6/14/23,2023,No
+UCLA,Water Polo (Womens),Social Media,72.0,Product/Equity,Inked Sports,6/6/23,2023,No
+UCLA,Volleyball (Mens),Social Media,1000.0,Product/Equity,Bonobos,6/2/23,2023,No
+UCLA,Volleyball (Mens),Social Media,1000.0,Product/Equity,Bonobos,6/2/23,2023,No
+UCLA,Volleyball (Mens),Social Media,1000.0,Product/Equity,Bonobos,6/2/23,2023,No
+UCLA,Volleyball (Mens),Social Media,1000.0,Product/Equity,Bonobos,6/2/23,2023,No
+UCLA,Volleyball (Mens),Social Media,1000.0,Product/Equity,Bonobos,6/2/23,2023,No
+UCLA,Volleyball (Mens),Social Media,1000.0,Product/Equity,Bonobos,6/2/23,2023,No
+UCLA,Volleyball (Mens),Social Media,1000.0,Product/Equity,Bonobos,6/2/23,2023,No
+UCLA,Volleyball (Mens),Social Media,1000.0,Product/Equity,Bonobos,6/2/23,2023,No
+UCLA,General,Social Media,1000.0,Product/Equity,Bonobos,6/2/23,2023,No
+UCLA,General,Social Media,1000.0,Product/Equity,Bonobos,6/2/23,2023,No
+UCLA,Volleyball (Mens),Social Media,1000.0,Product/Equity,Bonobos,6/2/23,2023,No
+UCLA,Volleyball (Mens),Social Media,1000.0,Product/Equity,Bonobos,6/2/23,2023,No
+UCLA,Volleyball (Mens),Social Media,1000.0,Product/Equity,Bonobos,6/3/23,2023,No
+UCLA,Volleyball (Mens),Social Media,1000.0,Product/Equity,Bonobos,6/3/23,2023,No
+UCLA,Volleyball (Mens),Social Media,1000.0,Product/Equity,Bonobos,6/4/23,2023,No
+UCLA,Volleyball (Mens),Social Media,1000.0,Product/Equity,Bonobos,6/4/23,2023,No
+UCLA,Volleyball (Mens),Social Media,1000.0,Product/Equity,Bonobos,6/4/23,2023,No
+UCLA,Basketball (Mens),Social Media,11.01,Cash,Cameo,6/14/23,2023,No
+UCLA,Volleyball (Mens),Social Media,4500.0,Cash,Lloyd and Julie Talbert,6/2/23,2023,No
+UCLA,Football,Social Media,250.0,Cash,Blake Landon Inc,5/31/23,2023,No
+UCLA,Basketball (Mens),Social Media,22.5,Cash,Cameo,6/6/23,2023,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,6/6/23,2023,No
+UCLA,Basketball (Womens),Social Media,100.0,Product/Equity,LivingCrafts,5/29/23,2023,No
+UCLA,Football,Camps and Lessons,5730.0,Cash,Team First Foundation,5/22/23,2023,No
+UCLA,Basketball (Mens),Social Media,57.74,Cash,Cameo,5/26/23,2023,No
+UCLA,Basketball (Mens),Social Media,11.01,Cash,Cameo,5/26/23,2023,No
+UCLA,Basketball (Mens),Social Media,57.74,Cash,Cameo,5/26/23,2023,No
+UCLA,Volleyball (Mens),Autographs,500.0,Cash,John Chiang,5/15/23,2023,No
+UCLA,Basketball (Womens),Public Appearance,300.0,Cash,Learnfeild Group Benefits,5/15/23,2023,Yes
+UCLA,Basketball (Womens),Social Media,1000.0,Cash,Goat Fuel,5/15/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,3000.0,Cash,Grammarly,5/10/23,2023,No
+UCLA,Gymnastics (Womens),Other,0.0,Cash,GymShark,5/10/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,75000.0,Cash,Urban Outfitters,5/10/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,17000.0,Cash,Onbious.ly,5/10/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,25000.0,Cash,Urban Outfitters,5/10/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,3500.0,Cash,Social Studies,5/10/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,6700.0,Cash,J.p. morgan Chase,5/10/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,8000.0,Cash,Gale Partners,5/10/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,35000.0,Cash,PlayBooked,5/10/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,40000.0,Cash,Uninterrupted,5/10/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,85000.0,Cash,Captiv8,5/10/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,5000.0,Cash,Super 16,5/10/23,2023,No
+UCLA,Gymnastics (Womens),Public Appearance,4500.0,Cash,USOPC,5/10/23,2023,No
+UCLA,Gymnastics (Womens),Camps and Lessons,10000.0,Cash,Nopactalent,5/10/23,2023,No
+UCLA,Gymnastics (Womens),Public Appearance,450.0,Cash,WAD Productions,5/10/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,25000.0,Cash,ABMC,5/10/23,2023,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,5/16/23,2023,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,5/16/23,2023,No
+UCLA,Basketball (Womens),Social Media,5000.0,Cash,Breakaway Data,3/15/23,2023,No
+UCLA,Basketball (Womens),Social Media,5000.0,Cash,Breakaway Data,3/15/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,500.0,Cash,CalHOPE,4/5/23,2023,No
+UCLA,Track and Field,Social Media,500.0,Cash,CalHOPE,4/5/23,2023,No
+UCLA,Cross Country,Other,50.0,Cash,More Gems More Wins,4/29/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,34.0,Cash,TeamKindly,4/28/23,2023,No
+UCLA,Water Polo (Womens),Social Media,80.0,Cash,Athlete To Athlete,4/26/23,2023,No
+UCLA,Basketball (Womens),Social Media,150000.0,Cash,GALE Partners,6/14/23,2023,No
+UCLA,Basketball (Mens),Social Media,75.0,Cash,Cameo,4/28/23,2023,No
+UCLA,Basketball (Mens),Social Media,22.5,Cash,Cameo,4/28/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,4000.0,Cash,Benefit Cosmetics,4/18/23,2023,No
+UCLA,Track and Field,Social Media,49.41,Product/Equity,Ready Nutrition,4/9/23,2023,No
+UCLA,Basketball (Womens),Social Media,1000.0,Cash,Goat Fule,4/6/23,2023,No
+UCLA,Basketball (Womens),Social Media,200.0,Cash,Olita Sunscreen,4/6/23,2023,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,4/5/23,2023,No
+UCLA,Basketball (Womens),Public Appearance,1250.0,Cash,"Hang Media, Inc.",6/22/23,2023,No
+UCLA,Basketball (Womens),Social Media,200.0,Cash,Post Game,3/30/23,2023,No
+UCLA,Basketball (Womens),Social Media,200.0,Cash,Post Game,3/30/23,2023,No
+UCLA,Basketball (Womens),Social Media,200.0,Cash,Postgame Official,3/30/23,2023,No
+UCLA,Basketball (Womens),Social Media,1000.0,Cash,GoatFuel,3/28/23,2023,No
+UCLA,Basketball (Mens),Social Media,11.01,Cash,Cameo,3/29/23,2023,No
+UCLA,Football,Other,84000.0,Cash,Range Sports,3/27/23,2023,No
+UCLA,Football,Other,30000.0,Cash,JP Morgan Chase,3/27/23,2023,No
+UCLA,Soccer (Womens),Other,0.0,Product/Equity,Adidas,3/27/23,2023,No
+UCLA,Basketball (Mens),Social Media,83.99,Cash,Cameo,3/29/23,2023,No
+UCLA,Softball,Social Media,200.0,Cash,Mixed Chicks LLC,3/22/23,2023,No
+UCLA,Basketball (Womens),Social Media,1000.0,Cash,G.O.A.T. Fuel,3/24/23,2023,No
+UCLA,Basketball (Womens),Social Media,1000.0,Cash,Goat Fuel,3/24/23,2023,No
+UCLA,Basketball (Womens),Social Media,10000.0,Cash,Urban Outfitters,3/23/23,2023,No
+UCLA,Basketball (Mens),Social Media,10000.0,Cash,Urban Outfitters,3/23/23,2023,No
+UCLA,Basketball (Mens),Social Media,16.26,Cash,Cameo,3/29/23,2023,No
+UCLA,Basketball (Womens),Social Media,250.0,Cash,CLOVE + HALLOW,3/22/23,2023,No
+UCLA,Basketball (Womens),Business Ownership/Creation,5000.0,Cash,Break Away Data,3/22/23,2023,No
+UCLA,Football,Social Media,250.0,Cash,Blake London Inc,3/20/23,2023,No
+UCLA,Basketball (Mens),Social Media,16.26,Cash,Cameo,3/22/23,2023,No
+UCLA,Volleyball (Womens),Social Media,500.0,Cash,CalHOPE,1/26/23,2023,No
+UCLA,Basketball (Mens),Social Media,16.26,Cash,Cameo,3/20/23,2023,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,3/22/23,2023,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,3/22/23,2023,No
+UCLA,Baseball,Social Media,250.0,Cash,Blake Landon Inc,3/16/23,2023,No
+UCLA,Baseball,Social Media,250.0,Cash,BleubyBlakeLandon,3/17/23,2023,No
+UCLA,Basketball (Mens),Social Media,11.01,Cash,Cameo,3/20/23,2023,No
+UCLA,Basketball (Mens),Social Media,16.26,Cash,Cameo,3/20/23,2023,No
+UCLA,Football,Social Media,250.0,Cash,Blake Landon Inc,3/14/23,2023,No
+UCLA,Basketball (Mens),Social Media,11.01,Cash,Cameo,3/20/23,2023,No
+UCLA,Volleyball (Womens),Social Media,1090.0,Cash,Dunkin',3/13/23,2023,No
+UCLA,Basketball (Mens),Social Media,16.26,Cash,Cameo,3/20/23,2023,No
+UCLA,Basketball (Mens),Social Media,16.26,Cash,Cameo,3/20/23,2023,No
+UCLA,Basketball (Mens),Social Media,16.26,Cash,Cameo,3/20/23,2023,No
+UCLA,Volleyball (Womens),Social Media,500.0,Cash,Dunkin',3/9/23,2023,No
+UCLA,Basketball (Mens),Social Media,16.26,Cash,Cameo,3/20/23,2023,No
+UCLA,Basketball (Womens),Social Media,5000.0,Cash,GALE Partners,3/21/23,2023,No
+UCLA,Baseball,Outside Employment,20000.0,Cash,En Fuego Kids,3/6/23,2023,No
+UCLA,Basketball (Mens),Other,4000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,4000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,4000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,4000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,4000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,4000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,4000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,4000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,4000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,4000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,4000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,4000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Womens),Social Media,18000.0,Cash,Captiv8.io,3/21/23,2023,No
+UCLA,Cross Country,Not Sure,115.0,Product/Equity,Firefly Recovery,3/2/23,2023,No
+UCLA,Basketball (Womens),Social Media,0.0,Product/Equity,Princess Polly,3/10/23,2023,No
+UCLA,Basketball (Mens),Social Media,3000.0,Cash,Bonchon Chicken,3/15/23,2023,No
+UCLA,Basketball (Mens),Other,1000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,1000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,1000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,1000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,1000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,1000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,1000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,1000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,1000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,1000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,1000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,1000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,5000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,5000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,5000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,5000.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,500.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,500.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Mens),Other,500.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Womens),Social Media,10000.0,Cash,True Capital Management,2/27/23,2023,No
+UCLA,Basketball (Womens),Social Media,5000.0,Cash,McDonalds All American Game,2/27/23,2023,No
+UCLA,Basketball (Womens),Social Media,5000.0,Cash,Tocaya,2/27/23,2023,No
+UCLA,Basketball (Mens),Social Media,15000.0,Cash,True Capital Management,2/27/23,2023,No
+UCLA,Basketball (Mens),Social Media,4000.0,Cash,Bose,2/27/23,2023,No
+UCLA,Basketball (Mens),Social Media,4000.0,Cash,Fanhouse,2/27/23,2023,No
+UCLA,Basketball (Mens),Social Media,2500.0,Cash,Casper,2/27/23,2023,No
+UCLA,Basketball (Mens),Social Media,3000.0,Cash,Buddybet,2/27/23,2023,No
+UCLA,Basketball (Mens),Social Media,22.5,Cash,Cameo,3/1/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,0.0,Product/Equity,The Impact Agency,2/22/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,0.0,Product/Equity,The Impact Agency,2/22/23,2023,No
+UCLA,Football,Public Appearance,300.0,Cash,Bogo boogie Dance Cam,2/21/23,2023,No
+UCLA,Basketball (Mens),Social Media,11.01,Cash,Cameo,2/22/23,2023,No
+UCLA,Football,Social Media,1300.0,Product/Equity,Marc Pro,2/18/23,2023,No
+UCLA,Track and Field,Social Media,43.39,Product/Equity,Team Ready,2/15/23,2023,No
+UCLA,Basketball (Womens),Social Media,500.0,Cash,Clean Simple Eats,2/16/23,2023,No
+UCLA,Basketball (Mens),Social Media,112.5,Cash,Cameo,2/22/23,2023,No
+UCLA,Basketball (Mens),Social Media,75.0,Cash,Cameo,2/22/23,2023,No
+UCLA,Volleyball (Beach),Other,12000.0,Cash,Mark Kalmansohn,2/1/23,2023,No
+UCLA,Swimming/Diving (Womens),Social Media,100.0,Cash,JVB Swim,2/13/23,2023,No
+UCLA,Softball,Social Media,200.0,Product/Equity,Mixed Chicks Hair Producs,2/13/23,2023,No
+UCLA,Basketball (Mens),Social Media,75.0,Cash,Cameo,2/22/23,2023,No
+UCLA,Basketball (Mens),Social Media,26.25,Cash,Cameo,2/22/23,2023,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,2/22/23,2023,No
+UCLA,Volleyball (Womens),Social Media,1000.0,Cash,Dunkin',2/6/23,2023,No
+UCLA,Basketball (Mens),Social Media,22.5,Cash,Cameo,2/8/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,9800.0,Cash,TurboTax,1/17/23,2023,No
+UCLA,Softball,Social Media,3000.0,Cash,En Fuego Kids,3/6/23,2023,No
+UCLA,Football,Other,12500.0,Cash,Men of Westwood,5/4/23,2023,No
+UCLA,Basketball (Womens),Social Media,5000.0,Cash,Takis,1/30/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,136.0,Product/Equity,tentree,1/31/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,0.0,Product/Equity,Teen Wolf,2/6/23,2023,No
+UCLA,Basketball (Mens),Social Media,11.01,Cash,Cameo,1/25/23,2023,No
+UCLA,Softball,Social Media,200.0,Product/Equity,Mixed Chicks LLC,1/24/23,2023,No
+UCLA,Basketball (Womens),Social Media,7000.0,Cash,"Whistle Sports, Inc",2/28/23,2023,No
+UCLA,Football,Other,0.0,Cash,FanZone,1/23/23,2023,No
+UCLA,Football,Other,0.0,Cash,FanZone,1/23/23,2023,No
+UCLA,Soccer (Mens),Not Sure,0.0,Cash,FanZone,1/23/23,2023,No
+UCLA,Baseball,Not Sure,0.0,Cash,FanZone,1/23/23,2023,No
+UCLA,Baseball,Not Sure,0.0,Cash,FanZone,1/23/23,2023,No
+UCLA,Cross Country,Not Sure,0.0,Cash,FanZone,1/23/23,2023,No
+UCLA,Basketball (Mens),Social Media,26.25,Cash,Cameo,1/25/23,2023,No
+UCLA,Golf (Mens),Social Media,5000.0,Cash,Good Good Golf,1/21/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,5000.0,Cash,Book of the Month,1/23/23,2023,No
+UCLA,Basketball (Mens),Social Media,75.0,Cash,Cameo,1/18/23,2023,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,1/18/23,2023,No
+UCLA,Basketball (Mens),Social Media,100.0,Product/Equity,Alo Yoga,1/9/23,2023,No
+UCLA,Basketball (Womens),Social Media,2500.0,Cash,Built Bars,1/9/23,2023,No
+UCLA,Basketball (Womens),Social Media,100.0,Product/Equity,Alo,1/9/23,2023,No
+UCLA,Basketball (Mens),Social Media,5000.0,Cash,Tocaya,1/5/23,2023,No
+UCLA,Basketball (Mens),Social Media,2500.0,Cash,Built Bars,1/5/23,2023,No
+UCLA,Baseball,Royalty,17.5,Cash,"The Athletic Collection, LLC",1/4/23,2023,No
+UCLA,Basketball (Mens),Other,14000.0,Cash,Breakawat Data,1/19/23,2023,No
+UCLA,Football,Social Media,600.0,Cash,Bridge Money Inc,12/25/22,2022,No
+UCLA,Football,Social Media,3000.0,Cash,Tiktal,12/25/22,2022,No
+UCLA,Football,Social Media,2500.0,Cash,Inmar Intelligence,12/25/22,2022,No
+UCLA,Volleyball (Womens),Social Media,100.0,Cash,GoPuff,12/20/22,2022,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,12/21/22,2022,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,12/21/22,2022,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,12/19/22,2022,No
+UCLA,Basketball (Womens),Public Appearance,500.0,Cash,MarketPryce,12/9/22,2022,No
+UCLA,Basketball (Womens),Representation Disclosure,200.0,Cash,Influxer,12/9/22,2022,No
+UCLA,Gymnastics (Womens),Social Media,17000.0,Cash,obvious.ly,12/9/22,2022,No
+UCLA,Swimming/Diving (Womens),Social Media,200.0,Product/Equity,AS Revival,12/7/22,2022,No
+UCLA,Swimming/Diving (Womens),Social Media,200.0,Product/Equity,437,12/5/22,2022,No
+UCLA,Basketball (Mens),Social Media,83.99,Cash,Cameo,12/7/22,2022,No
+UCLA,Softball,Public Appearance,1000.0,Cash,ESPN,12/1/22,2022,No
+UCLA,Softball,Social Media,10000.0,Cash,Sprouts Market,12/1/22,2022,No
+UCLA,Football,Royalty,17.5,Cash,"The Athletic Collection, LLC",12/2/22,2022,No
+UCLA,Basketball (Mens),Social Media,22.5,Cash,Cameo,12/7/22,2022,No
+UCLA,Basketball (Mens),Other,1500.0,Cash,Men of Westwood,1/12/23,2023,No
+UCLA,Basketball (Mens),Other,1500.0,Cash,Men of Westwood,1/12/23,2023,No
+UCLA,Basketball (Mens),Other,1500.0,Cash,Men of Westwood,1/12/23,2023,No
+UCLA,Basketball (Mens),Other,1500.0,Cash,Men of Westwood,1/12/23,2023,No
+UCLA,Basketball (Mens),Other,1500.0,Cash,Men of Westwood,1/12/23,2023,No
+UCLA,Basketball (Mens),Other,1500.0,Cash,Men of Westwood,1/12/23,2023,No
+UCLA,Basketball (Mens),Other,1500.0,Cash,Men of Westwood,1/12/23,2023,No
+UCLA,Basketball (Mens),Other,1500.0,Cash,Men of Westwood,1/12/23,2023,No
+UCLA,Basketball (Mens),Other,1500.0,Cash,Men of Westwood,1/12/23,2023,No
+UCLA,Basketball (Mens),Other,1500.0,Cash,Men of Westwood,1/12/23,2023,No
+UCLA,Basketball (Mens),Other,1500.0,Cash,Men of Westwood,1/12/23,2023,No
+UCLA,Basketball (Mens),Other,1500.0,Cash,Men of Westwood,1/12/23,2023,No
+UCLA,Basketball (Mens),Other,1500.0,Cash,Men of Westwood,1/12/23,2023,No
+UCLA,Basketball (Mens),Other,1500.0,Cash,Men of Westwood,1/12/23,2023,No
+UCLA,Basketball (Mens),Other,1500.0,Cash,Men of Westwood,1/12/23,2023,No
+UCLA,Basketball (Mens),Other,1500.0,Cash,Men of Westwood,1/12/23,2023,No
+UCLA,Basketball (Mens),Other,1500.0,Cash,Men of Westwood,1/12/23,2023,No
+UCLA,Softball,Social Media,2200.0,Cash,Dicks Sporting Goods,11/29/22,2022,No
+UCLA,Track and Field,Other,500.0,Cash,Spryng,11/30/22,2022,No
+UCLA,Basketball (Mens),Social Media,75.0,Cash,Cameo,12/7/22,2022,No
+UCLA,Softball,Social Media,75.0,Cash,WISHLY,11/18/22,2022,No
+UCLA,Softball,Social Media,75.0,Cash,Wishly,11/30/22,2022,No
+UCLA,Softball,Social Media,2200.0,Cash,Dicks Sporting Goods,11/30/22,2022,No
+UCLA,Softball,Social Media,2200.0,Cash,Eric B Marshall,11/29/22,2022,No
+UCLA,Golf (Mens),Other,800.0,Cash,Nike,11/28/22,2022,No
+UCLA,Golf (Mens),Other,800.0,Cash,Nike,11/28/22,2022,No
+UCLA,Golf (Mens),Other,800.0,Cash,Nike,11/28/22,2022,No
+UCLA,Basketball (Mens),Social Media,11.01,Cash,Cameo,11/29/22,2022,No
+UCLA,Basketball (Womens),Other,10000.0,Cash,Lockerverse Inc,11/24/22,2022,No
+UCLA,Softball,Social Media,2200.0,Cash,Dicks Sporting Goods,11/22/22,2022,No
+UCLA,Tennis (Womens),Outside Employment,1084.0,Cash,"Universal Content Productions, and A",11/23/22,2022,No
+UCLA,Tennis (Womens),Outside Employment,1084.0,Cash,Universal Studios and Aggregate FilmHeater Kritzer,11/23/22,2022,No
+UCLA,Basketball (Mens),Social Media,100.0,Cash,Spikeball Inc.,11/21/22,2022,No
+UCLA,Basketball (Mens),Social Media,100.0,Product/Equity,Prodigy Fitness,11/21/22,2022,No
+UCLA,Basketball (Womens),Social Media,150.0,Product/Equity,Hummii LLC,11/16/22,2022,No
+UCLA,Football,Other,45000.0,Cash,JP Morgan Chase,11/16/22,2022,No
+UCLA,Football,Social Media,2000.0,Product/Equity,Lucchese Boots,11/15/22,2022,No
+UCLA,Swimming/Diving (Womens),Social Media,52.0,Product/Equity,Vital Proteins,11/14/22,2022,No
+UCLA,Gymnastics (Womens),Social Media,850.0,Cash,Sprouts Supermarket,11/2/22,2022,No
+UCLA,Football,Royalty,17.5,Cash,"The Athletic Collection, LLC",11/1/22,2022,No
+UCLA,Football,Social Media,25000.0,Cash,activision,10/31/22,2022,No
+UCLA,Football,Social Media,25000.0,Cash,activision,10/31/22,2022,No
+UCLA,Golf (Womens),Social Media,100.0,Cash,NBC Sports Athlete Direct,10/30/22,2022,Yes
+UCLA,Football,Social Media,500.0,Cash,NBC Sports,10/26/22,2022,No
+UCLA,Basketball (Mens),Social Media,15.0,Cash,Cameo,10/24/22,2022,No
+UCLA,Basketball (Womens),Social Media,600.0,Cash,RE3Global,12/9/22,2022,No
+UCLA,Football,Other,750.0,Cash,The Bruin Fan Alliance,10/14/22,2022,No
+UCLA,Football,Other,750.0,Cash,The Bruin Fan Alliance,10/14/22,2022,No
+UCLA,Gymnastics (Womens),Social Media,5000.0,Cash,Girl Scouts of San Jacinto Council√¢‚Ç¨ Corrina Jimenez,10/28/22,2022,No
+UCLA,Volleyball (Womens),Social Media,600.0,Product/Equity,Eastman Performance Films LLC,9/23/22,2022,No
+UCLA,Swimming/Diving (Womens),Social Media,10.0,Product/Equity,Badis,10/11/22,2022,No
+UCLA,Gymnastics (Womens),Social Media,13500.0,Cash,Nordstrom,10/28/22,2022,No
+UCLA,Gymnastics (Womens),Social Media,100.0,Product/Equity,Casetify,10/7/22,2022,No
+UCLA,Track and Field,Social Media,400.0,Cash,Xyience,10/5/22,2022,No
+UCLA,Basketball (Mens),Social Media,600.0,Product/Equity,Eastman Performance Films LLC,9/20/22,2022,No
+UCLA,Swimming/Diving (Womens),Social Media,800.0,Product/Equity,JVB Swim,9/29/22,2022,No
+UCLA,Basketball (Mens),Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan,9/20/22,2022,No
+UCLA,Basketball (Mens),Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan,9/20/22,2022,No
+UCLA,Basketball (Mens),Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan,9/20/22,2022,No
+UCLA,Basketball (Mens),Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan,9/20/22,2022,No
+UCLA,Basketball (Mens),Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan,9/20/22,2022,No
+UCLA,Basketball (Mens),Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan,9/20/22,2022,No
+UCLA,Soccer (Mens),Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan,9/20/22,2022,No
+UCLA,Water Polo (Mens),Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan,9/20/22,2022,No
+UCLA,Water Polo (Mens),Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan,9/20/22,2022,No
+UCLA,Volleyball (Beach),Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan,9/20/22,2022,No
+UCLA,Water Polo (Mens),Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan,9/20/22,2022,No
+UCLA,Softball,Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan,9/20/22,2022,No
+UCLA,Softball,Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan,9/20/22,2022,No
+UCLA,Soccer (Mens),Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan,9/20/22,2022,No
+UCLA,Volleyball (Womens),Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan Bailey OSullivan,9/20/22,2022,No
+UCLA,Volleyball (Womens),Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan Bailey OSullivan,9/20/22,2022,No
+UCLA,Baseball,Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan Bailey OSullivan,9/20/22,2022,No
+UCLA,Baseball,Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan Bailey OSullivan,9/20/22,2022,No
+UCLA,Tennis (Mens),Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan Bailey OSullivan,9/20/22,2022,No
+UCLA,Basketball (Mens),Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan Bailey OSullivan,9/20/22,2022,No
+UCLA,Basketball (Mens),Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan Bailey OSullivan,9/20/22,2022,No
+UCLA,Volleyball (Womens),Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan Bailey OSullivan,9/20/22,2022,No
+UCLA,Gymnastics (Womens),Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan Bailey OSullivan,9/20/22,2022,No
+UCLA,Soccer (Mens),Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan Bailey OSullivan,9/20/22,2022,No
+UCLA,Softball,Business Ownership/Creation,1000.0,Product/Equity,Bailey OSullivan Bailey OSullivan,9/20/22,2022,No
+UCLA,Gymnastics (Womens),Social Media,4980.0,Cash,Upper Deck Alicia Vasquez,11/1/22,2022,No
+UCLA,Basketball (Mens),Social Media,3500.0,Cash,NTWEK Breeze Mcdonald,9/22/22,2022,No
+UCLA,Basketball (Mens),Camps and Lessons,4500.0,Cash,Next Gen Breeze Mcdonald,9/22/22,2022,No
+UCLA,Gymnastics (Womens),Social Media,20000.0,Cash,Degree Tucker Hugh,11/1/22,2022,No
+UCLA,Gymnastics (Womens),Social Media,6000.0,Cash,Walmart Mackenzie Mathis,11/1/22,2022,No
+UCLA,Gymnastics (Womens),Social Media,5000.0,Cash,Head Count Aimee Le,11/1/22,2022,No
+UCLA,Gymnastics (Womens),Not Sure,5000.0,Cash,ACFC Athlete Ambassador Program Lindsey Fitzgerald,10/28/22,2022,No
+UCLA,Gymnastics (Womens),Social Media,42000.0,Cash,Meta Emily Jarvis,11/1/22,2022,No
+UCLA,Volleyball (Womens),Social Media,200.0,Cash,Aion,5/10/24,2024,No
+UCLA,Volleyball (Womens),Social Media,350.0,Product/Equity,Aion,5/10/24,2024,No
+UCLA,Gymnastics (Womens),Social Media,210000.0,Cash,Milani,5/12/24,2024,No
+UCLA,Soccer (Womens),Royalty,75.0,Cash,Campus Ink,5/2/24,2024,No
+UCLA,Tennis (Mens),Royalty,70.0,Cash,Campus Ink,5/2/24,2024,No
+UCLA,Football,Social Media,100000.0,Cash,Men of Westwood,5/14/24,2024,No
+UCLA,Baseball,Social Media,7500.0,Cash,Men of Westwood,5/14/24,2024,No
+UCLA,Football,Not Sure,10.8,Cash,NIL Club,4/22/24,2024,No
+UCLA,Football,Social Media,450000.0,Cash,Men of Westwood,5/14/24,2024,No
+UCLA,Football,Social Media,500.0,Product/Equity,Gracieglow Eyewear,4/24/24,2024,No
+UCLA,Basketball (Womens),Royalty,60.0,Cash,Campus Ink,4/18/24,2024,No
+UCLA,Volleyball (Womens),Royalty,58.0,Cash,Campus Ink,4/18/24,2024,No
+UCLA,Volleyball (Womens),Royalty,76.0,Cash,Campus Ink,4/18/24,2024,No
+UCLA,Football,Royalty,52.0,Cash,Campus Ink,4/18/24,2024,No
+UCLA,Football,Royalty,52.0,Cash,Campus Ink,4/18/24,2024,No
+UCLA,Football,Royalty,94.0,Cash,Campus Ink,4/18/24,2024,No
+UCLA,Baseball,Royalty,68.0,Cash,Campus Ink,4/18/24,2024,No
+UCLA,Football,Royalty,84.0,Cash,Campus Ink,4/18/24,2024,No
+UCLA,Basketball (Mens),Social Media,225000.0,Cash,Men of Westwood,5/14/24,2024,No
+UCLA,Track and Field,Social Media,200.0,Cash,Halfday X 98strong,4/25/24,2024,No
+UCLA,Gymnastics (Womens),Social Media,45000.0,Cash,Casting By A,5/12/24,2024,No
+UCLA,Volleyball (Womens),Other,5250.0,Cash,Mark Kalmansohn,4/1/24,2024,No
+UCLA,Volleyball (Mens),Public Appearance,200.0,Product/Equity,Incrediwear,4/9/24,2024,No
+UCLA,Soccer (Womens),Social Media,150.0,Cash,Ito En North America,4/1/24,2024,No
+UCLA,Rowing (Womens),Social Media,200.0,Product/Equity,StaminaPro/Luminas,4/1/24,2024,No
+UCLA,Soccer (Womens),Royalty,262.49,Cash,Campus Ink,4/4/24,2024,No
+UCLA,Gymnastics (Womens),Royalty,58.0,Cash,Campus Ink,4/4/24,2024,No
+UCLA,Football,Royalty,126.0,Cash,Campus Ink,4/4/24,2024,No
+UCLA,Basketball (Womens),Royalty,76.0,Cash,Campus Ink,4/4/24,2024,No
+UCLA,Basketball (Mens),Social Media,150000.0,Cash,Men of Westwood,4/25/24,2024,No
+UCLA,Basketball (Womens),Social Media,15000.0,Cash,Intuit Turbo Tax,5/5/24,2024,No
+UCLA,Basketball (Mens),Social Media,163500.0,Cash,Men of Westwood,4/25/24,2024,No
+UCLA,Football,Social Media,499.0,Product/Equity,Eastman Performance Films LLC,3/19/24,2024,No
+UCLA,Soccer (Mens),Social Media,450.0,Cash,Ito En North America,3/18/24,2024,No
+UCLA,Gymnastics (Womens),Social Media,250.0,Cash,Half Day Iced tea,3/8/24,2024,No
+UCLA,Football,Royalty,51.6,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Basketball (Mens),Royalty,173.0,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Basketball (Womens),Royalty,76.0,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Basketball (Womens),Royalty,164.49,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Basketball (Womens),Royalty,198.0,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Soccer (Womens),Royalty,129.0,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Football,Royalty,51.0,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Football,Royalty,53.0,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Basketball (Womens),Royalty,195.0,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Volleyball (Mens),Royalty,54.0,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Basketball (Womens),Royalty,235.0,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Baseball,Royalty,106.0,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Gymnastics (Womens),Royalty,118.0,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Volleyball (Womens),Royalty,96.0,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Basketball (Womens),Royalty,199.0,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Tennis (Mens),Royalty,74.0,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Basketball (Womens),Royalty,230.0,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Baseball,Royalty,55.0,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Gymnastics (Womens),Royalty,94.0,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Basketball (Mens),Royalty,120.0,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Football,Royalty,148.0,Cash,Campus Ink,3/18/24,2024,Yes
+UCLA,Football,Royalty,59.0,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Football,Royalty,240.0,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Football,Royalty,212.0,Cash,Campus Ink,3/18/24,2024,No
+UCLA,Football,Public Appearance,25000.0,Cash,The Hip Hop Museum,3/22/24,2024,No
+UCLA,Football,Social Media,15000.0,Cash,Men of Westwood,4/25/24,2024,No
+UCLA,Football,Other,15.1,Cash,nil club,3/9/24,2024,No
+UCLA,Football,Public Appearance,200.0,Cash,Amazon,4/24/24,2024,No
+UCLA,Volleyball (Womens),Social Media,100.0,Cash,Postgame,3/6/24,2024,No
+UCLA,Gymnastics (Womens),Social Media,35.0,Product/Equity,T-Post,3/27/24,2024,No
+UCLA,Water Polo (Mens),Social Media,31.03,Cash,Nil Club Yoke Global,3/5/24,2024,No
+UCLA,Basketball (Womens),Social Media,8600.0,Cash,"Get Engaged Media, LLC",3/22/24,2024,No
+UCLA,Gymnastics (Womens),Social Media,150.0,Product/Equity,Fabletics,3/4/24,2024,No
+UCLA,Basketball (Mens),Royalty,52.0,Cash,Campus Ink,3/4/24,2024,No
+UCLA,Softball,Social Media,4500.0,Cash,Absolutley Ridiculous,4/3/24,2024,No
+UCLA,Gymnastics (Womens),Social Media,50000.0,Cash,Whistle,2/22/24,2024,No
+UCLA,Football,Social Media,15000.0,Cash,Ford Motor Company,4/24/24,2024,No
+UCLA,Gymnastics (Womens),Social Media,6000.0,Cash,Ozone Leos,3/29/24,2024,No
+UCLA,Football,Other,150.0,Cash,Sway Media Networks,2/7/24,2024,No
+UCLA,Softball,Social Media,20000.0,Cash,Sprouts,4/3/24,2024,No
+UCLA,Gymnastics (Womens),Social Media,15000.0,Cash,Purple Innovation LLC,3/28/24,2024,No
+UCLA,Softball,Social Media,3600.0,Cash,Rockin protein,2/6/24,2024,No
+UCLA,General,Public Appearance,500.0,Cash,Kate Kraus,2/4/24,2024,No
+UCLA,Soccer (Womens),Public Appearance,500.0,Cash,Kate Kraus,2/4/24,2024,No
+UCLA,Soccer (Womens),Public Appearance,500.0,Cash,Kate,2/4/24,2024,No
+UCLA,Football,Social Media,10000.0,Cash,Shell,1/31/24,2024,No
+UCLA,Gymnastics (Womens),Social Media,125000.0,Cash,Bumble,2/2/24,2024,No
+UCLA,Football,Other,150.0,Cash,Sway Media Networks,1/27/24,2024,No
+UCLA,Basketball (Womens),Social Media,25000.0,Cash,"Captiv8, Inc.",2/2/24,2024,No
+UCLA,Soccer (Womens),Other,350.0,Cash,Sway Media Networks,1/23/24,2024,No
+UCLA,Soccer (Womens),Public Appearance,600.0,Cash,team nilo,1/24/24,2024,Yes
+UCLA,Volleyball (Womens),Social Media,330.0,Cash,Splits59,1/25/24,2024,No
+UCLA,Gymnastics (Womens),Social Media,35000.0,Cash,Collectively,1/26/24,2024,No
+UCLA,Gymnastics (Womens),Social Media,73500.0,Cash,whistle,1/26/24,2024,No
+UCLA,Softball,Social Media,1500.0,Cash,Waikea,4/3/24,2024,No
+UCLA,Swimming/Diving (Womens),Other,250.0,Cash,Sway Media Networks,1/18/24,2024,No
+UCLA,Football,Social Media,5000.0,Cash,Men of Westwood,2/15/24,2024,No
+UCLA,Basketball (Womens),Social Media,47500.0,Cash,Playtex,2/15/24,2024,No
+UCLA,Basketball (Womens),Social Media,5500.0,Cash,Chargel,2/15/24,2024,No
+UCLA,Basketball (Womens),Social Media,15000.0,Cash,CLIF,2/15/24,2024,No
+UCLA,Track and Field,Social Media,500.0,Product/Equity,Pretty Little Thing,1/23/24,2024,No
+UCLA,Basketball (Womens),Public Appearance,400.0,Cash,Luskin OIC,2/7/24,2024,No
+UCLA,Swimming/Diving (Womens),Other,250.0,Cash,Sway Media Networks,1/15/24,2024,No
+UCLA,Volleyball (Womens),Other,100.0,Cash,Sway Media Networks,1/15/24,2024,No
+UCLA,Track and Field,Social Media,200.0,Product/Equity,Gems LA,1/23/24,2024,No
+UCLA,Swimming/Diving (Womens),Other,250.0,Cash,Sway Media Networks,1/10/24,2024,No
+UCLA,Gymnastics (Womens),Social Media,3000.0,Cash,usopc,1/17/24,2024,No
+UCLA,Gymnastics (Womens),Social Media,250000.0,Cash,Bubbl'r Renewal,2/2/24,2024,No
+UCLA,Volleyball (Womens),Social Media,1500.0,Cash,Fairfield By Marriott,2/5/24,2024,Yes
+UCLA,Football,Social Media,40000.0,Cash,Men of Westwood,4/25/24,2024,No
+UCLA,Football,Social Media,40000.0,Cash,Men of Westwood,4/25/24,2024,No
+UCLA,Football,Social Media,40000.0,Cash,Men of Westwood,4/25/24,2024,No
+UCLA,Track and Field,Social Media,150.0,Cash,98Strong,1/7/24,2024,No
+UCLA,Baseball,Social Media,1500.0,Cash,EyeBlack,2/15/24,2024,No
+UCLA,Basketball (Womens),Social Media,2000.0,Cash,JLAB,2/15/24,2024,No
+UCLA,Baseball,Other,5000.0,Product/Equity,En Fuego Kids,9/14/23,2023,No
+UCLA,Track and Field,Social Media,5000.0,Cash,JBL,1/23/24,2024,Yes
+UCLA,Gymnastics (Womens),Public Appearance,500.0,Cash,Limelight,1/28/24,2024,No
+UCLA,Softball,Social Media,100.0,Cash,Both Sides of the White Line,12/18/23,2023,No
+UCLA,Volleyball (Mens),Other,6850.0,Cash,Mark Kalmansohn,12/14/23,2023,No
+UCLA,Track and Field,Social Media,150.0,Cash,Coconut water,12/19/23,2023,No
+UCLA,Football,Social Media,300.0,Cash,Go Fund Me,12/20/23,2023,No
+UCLA,Softball,Other,20000.0,Cash,Nerf,12/13/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,8100.0,Cash,Municipal,12/20/23,2023,No
+UCLA,Track and Field,Other,250.0,Cash,Sway Media Networks,12/11/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Social Media,500.0,Cash,Men of Westwood,12/20/23,2023,No
+UCLA,Football,Other,250.0,Cash,Sway Media Networks,12/8/23,2023,No
+UCLA,Volleyball (Mens),Social Media,2400.0,Product/Equity,Priority Bicycles,12/14/23,2023,No
+UCLA,Football,Other,250.0,Cash,Sway Media Networks,12/6/23,2023,No
+UCLA,Football,Other,250.0,Cash,Sway Media Networks,12/1/23,2023,No
+UCLA,Track and Field,Social Media,150.0,Cash,Veggie Grill,12/19/23,2023,No
+UCLA,Football,Other,250.0,Cash,Sway Media Networks,11/30/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,300000.0,Cash,burns entertainment,1/17/24,2024,No
+UCLA,Track and Field,Other,250.0,Cash,Sway Media Networks,11/27/23,2023,No
+UCLA,Softball,Social Media,1415.47,Cash,"Extreme Reach Talent, Inc",1/22/24,2024,No
+UCLA,Softball,Other,15000.0,Cash,Mark Kalmansohn,11/1/23,2023,No
+UCLA,Basketball (Womens),Social Media,2500.0,Cash,Athletes.org,11/16/23,2023,No
+UCLA,Basketball (Womens),Autographs,10000.0,Cash,Whistle,11/16/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,96.0,Product/Equity,ymi jeans,12/5/23,2023,No
+UCLA,Track and Field,Social Media,500.0,Cash,Bobabam,1/23/24,2024,No
+UCLA,Water Polo (Mens),Social Media,0.0,Cash,Nil Club,3/9/24,2024,Yes
+UCLA,Football,Social Media,10000.0,Cash,Shell Service Stations,11/6/23,2023,No
+UCLA,Football,Other,100.0,Cash,Sway Media Networks,11/9/23,2023,No
+UCLA,Football,Other,100.0,Cash,Sway Media Networks,11/9/23,2023,No
+UCLA,Football,Other,100.0,Cash,Sway Media Networks,11/9/23,2023,No
+UCLA,Softball,Social Media,1500.0,Cash,Easton,11/7/23,2023,No
+UCLA,Cross Country,Social Media,80.0,Product/Equity,Hummii LLC,11/8/23,2023,No
+UCLA,Basketball (Womens),Other,40000.0,Cash,"Omaha Productions, LLC",3/22/24,2024,No
+UCLA,Track and Field,Other,250.0,Cash,Sway Media Networks,10/26/23,2023,No
+UCLA,Volleyball (Womens),Social Media,330.0,Product/Equity,Splits59,11/6/23,2023,No
+UCLA,Basketball (Womens),Social Media,200.0,Cash,Brake Away Data,4/10/24,2024,No
+UCLA,Track and Field,Other,100.0,Cash,Sway Media Networks,11/1/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,10000.0,Cash,cogent world,1/17/24,2024,No
+UCLA,General,Other,250.0,Cash,Sway Media Networks,10/26/23,2023,No
+UCLA,Football,Social Media,5000.0,Cash,powerade,11/1/23,2023,No
+UCLA,Soccer (Mens),Social Media,100.0,Cash,Black Players For Change,11/1/23,2023,No
+UCLA,Baseball,Social Media,4000.0,Cash,Men of Westwood,11/8/23,2023,No
+UCLA,Football,Business Ownership/Creation,10000.0,Cash,Substack,11/29/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,200.0,Product/Equity,Vuori,12/5/23,2023,No
+UCLA,Track and Field,Social Media,800.0,Cash,Samsung,10/18/23,2023,No
+UCLA,General,Social Media,100.0,Cash,Black Players for Change,10/27/23,2023,No
+UCLA,Football,Social Media,7500.0,Cash,Saxx Underwear,11/1/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,96.0,Product/Equity,YMI Jeans,12/5/23,2023,No
+UCLA,Rowing (Womens),Social Media,30.0,Product/Equity,Allsportsyoga,10/23/23,2023,No
+UCLA,Cross Country,Social Media,30.0,Cash,Allsportsyoga,10/23/23,2023,No
+UCLA,Soccer (Womens),Royalty,0.01,Cash,Retro Brand,10/19/23,2023,No
+UCLA,Gymnastics (Womens),Not Sure,100.0,Product/Equity,Ymi Jeans,10/24/23,2023,No
+UCLA,Rowing (Womens),Social Media,30.0,Product/Equity,Allsportsyoga,10/18/23,2023,No
+UCLA,Football,Social Media,1400.0,Cash,Tik Tok,12/20/23,2023,No
+UCLA,Water Polo (Mens),Social Media,100.0,Product/Equity,Seager Company,2/14/24,2024,No
+UCLA,Baseball,Social Media,135.0,Cash,Row Z,10/13/23,2023,No
+UCLA,Volleyball (Beach),Social Media,20.0,Product/Equity,Thread Bar,10/20/23,2023,No
+UCLA,Football,Other,1000.0,Cash,Sway Media Networks,10/10/23,2023,No
+UCLA,General,Social Media,750.0,Cash,Degree,10/12/23,2023,No
+UCLA,Football,Social Media,250.0,Product/Equity,Seager Co,10/12/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,96.0,Product/Equity,YMI Jeans,12/5/23,2023,No
+UCLA,Basketball (Womens),Public Appearance,800.0,Cash,Luskin OIC,4/11/24,2024,No
+UCLA,Basketball (Womens),Public Appearance,600.0,Cash,Luskin Oic,4/11/24,2024,No
+UCLA,Rowing (Womens),Social Media,30.0,Product/Equity,Allsportsyoga,10/11/23,2023,No
+UCLA,Rowing (Womens),Social Media,30.0,Cash,Allsports Yoga,10/11/23,2023,No
+UCLA,Rowing (Womens),Social Media,30.0,Product/Equity,Allsportsyoga,10/11/23,2023,No
+UCLA,Rowing (Womens),Social Media,30.0,Product/Equity,Allsportsyoga,10/11/23,2023,No
+UCLA,Rowing (Womens),Social Media,30.0,Cash,Allsportsyoga,11/12/23,2023,No
+UCLA,Football,Social Media,3000.0,Cash,Lululemon,10/12/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,150.0,Product/Equity,Urban Decay  Cosmetics,10/8/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,285000.0,Cash,ruder Finn,1/17/24,2024,No
+UCLA,Gymnastics (Womens),Not Sure,200.0,Cash,Flipp app,10/12/23,2023,No
+UCLA,Football,Social Media,1000.0,Cash,Dunkin',10/2/23,2023,No
+UCLA,Football,Social Media,6000.0,Cash,Whalar,10/2/23,2023,No
+UCLA,Football,Social Media,4000.0,Cash,Marines,10/2/23,2023,No
+UCLA,Basketball (Womens),Social Media,7500.0,Cash,Wescom Central Credit Union,10/24/23,2023,No
+UCLA,Basketball (Womens),Social Media,7500.0,Cash,Wescom Credit Union,9/29/23,2023,No
+UCLA,Basketball (Womens),Social Media,7500.0,Cash,Wescom,9/29/23,2023,No
+UCLA,Basketball (Womens),Social Media,7500.0,Cash,Wescom,9/29/23,2023,No
+UCLA,Basketball (Womens),Other,7500.0,Cash,Wescom Credit Union,9/29/23,2023,No
+UCLA,Basketball (Womens),Social Media,7000.0,Cash,Wescom Credit Union,9/29/23,2023,No
+UCLA,Basketball (Womens),Social Media,7500.0,Cash,Wescom,9/29/23,2023,Yes
+UCLA,Basketball (Womens),Other,7500.0,Cash,David Boctor,9/29/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,150.0,Cash,Will Perform,10/12/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,150.0,Product/Equity,Alani Team,10/4/23,2023,No
+UCLA,Football,Public Appearance,10000.0,Cash,Lululemon,9/29/23,2023,No
+UCLA,Basketball (Womens),Social Media,5000.0,Cash,lululemon,9/29/23,2023,No
+UCLA,Football,Social Media,48.0,Product/Equity,Clean Energy,9/28/23,2023,No
+UCLA,Football,Other,20000.0,Cash,Uber - Postmates,9/25/23,2023,No
+UCLA,Volleyball (Beach),Social Media,9000.0,Cash,Lloyd and Julie Talbert,9/25/23,2023,No
+UCLA,Baseball,Social Media,4000.0,Cash,Men of Westwood,11/8/23,2023,No
+UCLA,Baseball,Social Media,150000.0,Cash,Men of Westwood,11/8/23,2023,No
+UCLA,Baseball,Social Media,30000.0,Cash,Men of Westwood,11/8/23,2023,No
+UCLA,Gymnastics (Womens),Other,2000.0,Cash,Wolvvs Llc,10/4/23,2023,No
+UCLA,Basketball (Womens),Social Media,7500.0,Cash,Wescom Credit Union,9/29/23,2023,No
+UCLA,Basketball (Womens),Social Media,7500.0,Cash,David Boctor,9/29/23,2023,No
+UCLA,Softball,Other,15000.0,Cash,Mark Kalmansohn,9/12/23,2023,No
+UCLA,Softball,Other,15000.0,Cash,Mark Kalmansohn,9/12/23,2023,No
+UCLA,Softball,Other,17500.0,C ash,Mark Kalmansohn,9/12/23,2023,No
+UCLA,Softball,Other,15000.0,Cash,Mark Kalmansohn,9/12/23,2023,No
+UCLA,Softball,Other,2500.0,Cash,Mark Kalmansohn,9/12/23,2023,No
+UCLA,Football,Social Media,1300.0,Cash,Tinder,9/29/23,2023,No
+UCLA,Football,Other,1000.0,Cash,Sway Media Networks,9/15/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,25000.0,Cash,influential,1/17/24,2024,No
+UCLA,Track and Field,Social Media,450.0,Cash,The Influencer Marketing Factory,9/16/23,2023,No
+UCLA,Soccer (Womens),Social Media,12.0,Product/Equity,Gun Performance,10/16/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,50000.0,Cash,Blended Strategy,9/15/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,30000.0,Cash,Gale Partners,9/15/23,2023,No
+UCLA,Basketball (Womens),Social Media,18000.0,Cash,Apple Inc.,1/12/24,2024,No
+UCLA,Softball,Social Media,22500.0,Cash,Uninterrupted X Gatorade,9/19/23,2023,No
+UCLA,Volleyball (Mens),Social Media,2000.0,Product/Equity,Priority Rides,9/28/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,4530.0,Product/Equity,sunlife organics,9/16/23,2023,No
+UCLA,Soccer (Womens),Social Media,1500.0,Cash,Oofos,9/7/23,2023,No
+UCLA,Gymnastics (Womens),Social Media,129.0,Cash,Koreoleo,10/5/23,2023,No
+UCLA,Volleyball (Beach),Social Media,1000.0,Cash,ISSA,9/8/23,2023,No
+UCLA,Football,Social Media,11000.0,Cash,Men of Westwood,11/8/23,2023,No
+UCLA,Cross Country,Social Media,650.0,Cash,Brooks Running,10/11/23,2023,No
+UCLA,Volleyball (Beach),Social Media,9000.0,Cash,Lloyd And Julie Talbert,2/20/24,2024,No
+UCLA,Basketball (Mens),Public Appearance,20000.0,Cash,Team First Foundation,11/8/23,2023,No
+UCLA,Basketball (Mens),Public Appearance,80000.0,Cash,Team First Foundation,11/8/23,2023,No
+UCLA,Basketball (Mens),Public Appearance,50000.0,Cash,Team First Foundation,11/8/23,2023,No
+UCLA,Basketball (Mens),Public Appearance,100000.0,Cash,Team First Foundation,11/8/23,2023,No
+UCLA,Basketball (Mens),Public Appearance,100000.0,Cash,Team First Foundation,11/8/23,2023,No
+UCLA,Basketball (Mens),Public Appearance,100000.0,Cash,Team First Foundation,11/8/23,2023,No
+UCLA,Volleyball (Beach),Social Media,1500.0,Product/Equity,jackie yedgar,10/2/23,2023,No
+UCLA,Basketball (Womens),Public Appearance,400.0,Cash,Luskin OIC,4/11/24,2024,No
+UCLA,Football,Social Media,270000.0,Cash,Men of Westwood,11/8/23,2023,No
+UCLA,Basketball (Womens),Public Appearance,400.0,Cash,Luskin OIC,4/11/24,2024,No
+UCLA,Volleyball (Beach),Social Media,6000.0,Cash,C4,10/6/23,2023,No
+UCLA,Basketball (Mens),Social Media,10000.0,Cash,Men of Westwood,11/8/23,2023,No
+UCLA,Football,Social Media,50000.0,Cash,Men of Westwood,11/8/23,2023,No
+UCLA,Basketball (Mens),Social Media,1000.0,Cash,Men of Westwood,11/8/23,2023,No
+UCLA,Football,Social Media,500.0,Product/Equity,Fashion Nova Men,9/29/23,2023,No
+UCLA,Basketball (Womens),Other,1500.0,Cash,Something Ideal LLC,9/12/23,2023,No
+UCLA,Football,Royalty,50.0,Cash,Clutch Merchandise LLC,9/27/23,2023,No
+UCLA,Golf (Mens),Social Media,1250.0,Cash,Good Good Apparel,11/9/23,2023,No
+UCLA,Football,Social Media,40000.0,Cash,Men of Westwood,11/8/23,2023,No
+UCLA,Volleyball (Beach),Other,2000.0,Cash,Nasm,10/6/23,2023,No
+UCLA,Volleyball (Beach),Public Appearance,1000.0,Cash,TCl,10/6/23,2023,No
+UCLA,Volleyball (Beach),Social Media,500.0,Cash,Trizzy,10/6/23,2023,No

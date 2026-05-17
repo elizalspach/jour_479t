@@ -7,6 +7,8 @@ import os
 app = Flask(__name__)
 
 # load the NIL deals data once when the app starts
+# source: CalMatters public records request — UCLA NIL transaction data 2022-2024
+# https://github.com/CalMatters/data-nil-deals
 nil_data = pd.read_csv('week12/data/nil_deals.csv')
 
 # clean column names by stripping white space
@@ -25,19 +27,21 @@ Reminder that you have to run python week12/app.py in the terminal and ensure th
 @app.route('/') # defines the URL endpoint: /
 def index():
     return jsonify({
-        'description': 'NCAA NIL Deals API (2022–2024)',
+        'description': 'UCLA NCAA NIL Deals API (2022–2024)',
+        'source': 'CalMatters public records request — https://github.com/CalMatters/data-nil-deals',
+        'note': 'Athlete names are not included in this dataset to protect student privacy.',
         'endpoints': [
             {
-                'path': '/api/deals', # this links to /api/deals
+                'path': '/api/deals',
                 'method': 'GET',
                 'description': 'Return all NIL deal records',
-                'params': ['sport', 'school', 'year', 'min_value', 'max_value']
+                'params': ['sport', 'deal_type', 'payment_type', 'year', 'min_value', 'max_value']
             },
             {
                 'path': '/api/deals/search',
                 'method': 'GET',
-                'description': 'Search by athlete name. Returns all records with case-insensitive partial matches to the query.',
-                'params': ['name (required)']
+                'description': 'Search by brand/vendor name. Returns all records with case-insensitive partial matches.',
+                'params': ['brand (required)']
             },
             {
                 'path': '/api/deals/sports',
@@ -60,11 +64,12 @@ Endpoint 1: GET /api/deals
    Supports optional query parameters
 
    Examples of parameters:
-     ?sport=Basketball
-     ?school=LSU
+     ?sport=Football
+     ?deal_type=Endorsement
+     ?payment_type=Cash
      ?year=2023
-     ?min_value=1000000
-     ?max_value=5000000
+     ?min_value=10000
+     ?max_value=100000
 """
 @app.route('/api/deals') # defines the URL endpoint: /api/deals
 def get_deals(): # function that runs when this endpoint is accessed
@@ -75,8 +80,10 @@ def get_deals(): # function that runs when this endpoint is accessed
 
     # get the value of ?sport= from the URL (returns None if not provided)
     sport = request.args.get('sport')
-    # get the value of ?school= from the URL
-    school = request.args.get('school')
+    # get the value of ?deal_type= from the URL
+    deal_type = request.args.get('deal_type')
+    # get the value of ?payment_type= from the URL
+    payment_type = request.args.get('payment_type')
     # get the value of ?year= and convert it to an integer
     year = request.args.get('year', type=int)
     # get the value of ?min_value= and convert it to a float
@@ -88,10 +95,14 @@ def get_deals(): # function that runs when this endpoint is accessed
     if sport:
         # filter the dataframe to only include rows where sport matches (case-insensitive)
         df = df[df['sport'].str.lower() == sport.lower()]
-    # if a school was provided,
-    if school:
-        # filter rows where school matches (case-insensitive)
-        df = df[df['school'].str.lower() == school.lower()]
+    # if a deal type was provided,
+    if deal_type:
+        # filter rows where deal_type matches (case-insensitive)
+        df = df[df['deal_type'].str.lower() == deal_type.lower()]
+    # if a payment type was provided,
+    if payment_type:
+        # filter rows where payment_type matches (case-insensitive)
+        df = df[df['payment_type'].str.lower() == payment_type.lower()]
     # if a year was provided,
     if year:
         # filter to only rows matching that year
@@ -115,32 +126,32 @@ def get_deals(): # function that runs when this endpoint is accessed
 
 
 """
-Endpoint 2: GET /api/deals/search?name=
+Endpoint 2: GET /api/deals/search?brand=
 
-Name parameter is required.
-Example: GET /api/deals/search?name=Clark
+Brand parameter is required.
+Example: GET /api/deals/search?brand=Nike
 
-Case-insensitive partial-match search on the "athlete_name" column
+Case-insensitive partial-match search on the "brand" (Vendor Name) column
 """
 @app.route('/api/deals/search') # defines the endpoint: /api/deals/search
-def search_by_name():  # function that runs when this endpoint is accessed
+def search_by_brand():  # function that runs when this endpoint is accessed
 
-    ### Defining our name parameter
-    # get the value of ?name= from the URL
-    # if no name is provided, default to an empty string ''
-    name = request.args.get('name', '')
-    # if the user did NOT provide a name parameter,
-    if not name:
+    ### Defining our brand parameter
+    # get the value of ?brand= from the URL
+    # if no brand is provided, default to an empty string ''
+    brand = request.args.get('brand', '')
+    # if the user did NOT provide a brand parameter,
+    if not brand:
         # return an error message as JSON
         # 400 error means the client made a mistake
-        ### This makes our name parameter required
-        return jsonify({'error': 'Provide a ?name= query parameter'}), 400
+        ### This makes our brand parameter required
+        return jsonify({'error': 'Provide a ?brand= query parameter'}), 400
 
-    # create a filtered dataframe that looks at 'athlete_name' to see if it contains
-    # the string that the user specified in ?name= in the URL
+    # create a filtered dataframe that looks at 'brand' to see if it contains
+    # the string that the user specified in ?brand= in the URL
     # case=False makes it case-insensitive
     # na=False prevents errors if there are missing values
-    df = nil_data[nil_data['athlete_name'].str.contains(name, case=False, na=False)]
+    df = nil_data[nil_data['brand'].str.contains(brand, case=False, na=False)]
 
     # return results as JSON
     return jsonify({
